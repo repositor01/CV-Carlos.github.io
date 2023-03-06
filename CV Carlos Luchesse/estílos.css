@@ -1,0 +1,104 @@
+* {    
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+
+}
+
+section {
+            height: 90vh;
+            padding: 9px;
+            margin: 9px;
+            background-color: rgba(225, 231, 221, 0.836);
+}
+
+      section#hero {
+            background-color: rgb(230, 199, 169);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+         }
+
+         h1 {
+            font-size: 3rem;
+            text-transform: uppercase;
+            font-family: 'Roboto', sans-serif;
+            
+
+        }
+
+h2 {
+
+            font-size: 3rem;
+            text-align: center;
+            padding: 77px;
+
+            font-family: 'Aboreto', cursive;
+                        font-family: 'Noto Serif Ahom', serif;
+                       
+                      
+}
+
+h3 {
+            font-size: 25px;
+            padding: 15px;
+            width: 76px;
+
+
+}
+
+.Lista-Proyectos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            
+}
+
+
+
+.Detalles-Proyectos {
+            border: 9px solid rgb(174, 196, 147);
+            width: 260px;
+            margin: 33px;
+            border-radius: 34px;
+            font-size: 15px;
+            
+            
+
+}
+
+.Detalles-Proyectos img {
+            width: 100%;
+            padding: 19px;
+            margin-top: 25px;
+            
+            
+}
+
+header {
+            position: sticky;
+            top: 5px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            background-color: rgb(83, 197, 169);
+            
+}
+
+nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            
+}
+
+
+
+nav ul li {
+            margin-right: 80px;
+            margin-left: 80px;
+            padding: 30px 50px;
+            background-color: rgb(212, 189, 164);
+            
+}
